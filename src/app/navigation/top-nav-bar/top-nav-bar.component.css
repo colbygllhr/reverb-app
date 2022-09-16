@@ -1,2 +1,3 @@
-navbar { 
-    font:'Times New Roman'; }
+.button {
+    padding-left: (spacer * .5) !important;
+}

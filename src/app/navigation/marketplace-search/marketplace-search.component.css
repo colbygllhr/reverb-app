@@ -1,6 +1,6 @@
 /* Container holding the image and the text */
-.container {
-    position: relative;
+.container-fluid {
+    height: 200px;
     text-align: center;
     color: white;
   }

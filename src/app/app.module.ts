@@ -8,6 +8,7 @@ import { SecNavBarComponent } from './navigation/sec-nav-bar/sec-nav-bar.compone
 import { BottomNavBarComponent } from './navigation/bottom-nav-bar/bottom-nav-bar.component';
 import { MarketplaceSearchComponent } from './navigation/marketplace-search/marketplace-search.component';
 import { FooterComponent } from './footer/footer.component';
+import { CardsComponent } from './cards/cards.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { FooterComponent } from './footer/footer.component';
     SecNavBarComponent,
     BottomNavBarComponent,
     MarketplaceSearchComponent,
-    FooterComponent
+    FooterComponent,
+    CardsComponent
   ],
   imports: [
     BrowserModule,

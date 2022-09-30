@@ -8,13 +8,13 @@ import { Component, Input, OnInit } from '@angular/core';
 export class VerticalCardsComponent  {
 @Input() img: string;
 @Input() description: string;
-@Input() price: string;
+@Input() price: number;
 @Input() condition: string;
 
 constructor(){
   this.img = "";
   this.description = "";
-  this.price = "$0";
+  this.price = 0;
   this.condition = "";
 }
 

@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { CardsComponent } from './cards.component';
+import { VerticalCardsComponent } from './vertical-cards.component';
 
-describe('CardsComponent', () => {
-  let component: CardsComponent;
-  let fixture: ComponentFixture<CardsComponent>;
+describe('VerticalCardsComponent', () => {
+  let component: VerticalCardsComponent;
+  let fixture: ComponentFixture<VerticalCardsComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ CardsComponent ]
+      declarations: [ VerticalCardsComponent ]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(CardsComponent);
+    fixture = TestBed.createComponent(VerticalCardsComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

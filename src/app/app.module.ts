@@ -9,6 +9,8 @@ import { BottomNavBarComponent } from './navigation/bottom-nav-bar/bottom-nav-ba
 import { MarketplaceSearchComponent } from './navigation/marketplace-search/marketplace-search.component';
 import { FooterComponent } from './footer/footer.component';
 import { CardsComponent } from './cards/cards.component';
+import { HorizontalCardsComponent } from './cards/horizontal-cards/horizontal-cards.component';
+import { VerticalCardsComponent } from './cards/vertical-cards/vertical-cards.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +20,9 @@ import { CardsComponent } from './cards/cards.component';
     BottomNavBarComponent,
     MarketplaceSearchComponent,
     FooterComponent,
-    CardsComponent
+    CardsComponent,
+    HorizontalCardsComponent,
+    VerticalCardsComponent
   ],
   imports: [
     BrowserModule,

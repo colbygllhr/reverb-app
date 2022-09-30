@@ -8,7 +8,6 @@ import { SecNavBarComponent } from './navigation/sec-nav-bar/sec-nav-bar.compone
 import { BottomNavBarComponent } from './navigation/bottom-nav-bar/bottom-nav-bar.component';
 import { MarketplaceSearchComponent } from './navigation/marketplace-search/marketplace-search.component';
 import { FooterComponent } from './footer/footer.component';
-import { CardsComponent } from './cards/cards.component';
 import { HorizontalCardsComponent } from './cards/horizontal-cards/horizontal-cards.component';
 import { VerticalCardsComponent } from './cards/vertical-cards/vertical-cards.component';
 
@@ -20,7 +19,6 @@ import { VerticalCardsComponent } from './cards/vertical-cards/vertical-cards.co
     BottomNavBarComponent,
     MarketplaceSearchComponent,
     FooterComponent,
-    CardsComponent,
     HorizontalCardsComponent,
     VerticalCardsComponent
   ],

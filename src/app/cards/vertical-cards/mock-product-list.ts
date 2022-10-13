@@ -20,12 +20,7 @@ export const mock_product_list = [
         condition: "Used - Very Good"  
     },
 
-    {
-        img: "/assets/vintage-ludwig-drums.jpeg", 
-        description: "1969 Ludwig S-320 Standard Series Drum Set",
-        price: 1100, 
-        condition: "Used - Very Good"  
-    },
+    
    
     {
         img: "/assets/roland-juno.jpeg", 

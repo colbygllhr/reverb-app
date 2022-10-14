@@ -12,6 +12,9 @@ import { HorizontalCardsComponent } from './cards/horizontal-cards/horizontal-ca
 import { VerticalCardsComponent } from './cards/vertical-cards/vertical-cards.component';
 import { CartLayoutComponent } from './navigation/cart-layout.component';
 import { HomeLayoutComponent } from './navigation/home-layout.component';
+import { SignupLayoutComponent } from './navigation/signup-layout/signup-layout.component';
+import { LoginLayoutComponent } from './navigation/login-layout/login-layout.component';
+import { MyFeedLayoutComponent } from './navigation/my-feed-layout/my-feed-layout.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +27,10 @@ import { HomeLayoutComponent } from './navigation/home-layout.component';
     HorizontalCardsComponent,
     VerticalCardsComponent,
     CartLayoutComponent,
-    HomeLayoutComponent
+    HomeLayoutComponent,
+    SignupLayoutComponent,
+    LoginLayoutComponent,
+    MyFeedLayoutComponent
   ],
   imports: [
     BrowserModule,

@@ -5,6 +5,7 @@ import { CartLayoutComponent } from './navigation/cart-layout.component';
 import { HomeLayoutComponent } from './navigation/home-layout.component';
 
 const routes: Routes = [
+  {path: '', component: HomeLayoutComponent},
   {path: 'Cart-Layout', component: CartLayoutComponent},
   {path: 'home', component: HomeLayoutComponent}
 

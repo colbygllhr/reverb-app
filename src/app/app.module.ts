@@ -10,6 +10,7 @@ import { MarketplaceSearchComponent } from './navigation/marketplace-search/mark
 import { FooterComponent } from './footer/footer.component';
 import { HorizontalCardsComponent } from './cards/horizontal-cards/horizontal-cards.component';
 import { VerticalCardsComponent } from './cards/vertical-cards/vertical-cards.component';
+import { CartLayoutComponent } from './navigation/cart-layout.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { VerticalCardsComponent } from './cards/vertical-cards/vertical-cards.co
     MarketplaceSearchComponent,
     FooterComponent,
     HorizontalCardsComponent,
-    VerticalCardsComponent
+    VerticalCardsComponent,
+    CartLayoutComponent
   ],
   imports: [
     BrowserModule,

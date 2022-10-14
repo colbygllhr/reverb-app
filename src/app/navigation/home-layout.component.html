@@ -1,0 +1,30 @@
+
+<app-top-nav-bar>Loading...</app-top-nav-bar>
+
+<app-sec-nav-bar>Loading...</app-sec-nav-bar>
+
+<div class="contiainer-fluid">
+<app-marketplace-search>Loading...</app-marketplace-search>
+</div>
+
+
+
+<div class="contiainer-fluid d-flex">
+    <div *ngFor="let product of products">
+        <app-vertical-cards class="mx-2"
+        img = {{product.img}}
+        description={{product.description}}
+        [price] ='product.price'
+        condition={{product.condition}}>
+    Loading...
+    </app-vertical-cards>
+    </div>
+</div>
+
+
+
+   
+
+
+<app-footer>Loading...</app-footer>
+ 

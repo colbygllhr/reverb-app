@@ -10,5 +10,5 @@ import { ProductItemModel } from './cards/vertical-cards/product-item-model';
 export class AppComponent {
   title = 'reverb-app';
 
-
+ 
 }

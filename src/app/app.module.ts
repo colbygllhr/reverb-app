@@ -11,6 +11,7 @@ import { FooterComponent } from './footer/footer.component';
 import { HorizontalCardsComponent } from './cards/horizontal-cards/horizontal-cards.component';
 import { VerticalCardsComponent } from './cards/vertical-cards/vertical-cards.component';
 import { CartLayoutComponent } from './navigation/cart-layout.component';
+import { HomeLayoutComponent } from './navigation/home-layout.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { CartLayoutComponent } from './navigation/cart-layout.component';
     FooterComponent,
     HorizontalCardsComponent,
     VerticalCardsComponent,
-    CartLayoutComponent
+    CartLayoutComponent,
+    HomeLayoutComponent
   ],
   imports: [
     BrowserModule,

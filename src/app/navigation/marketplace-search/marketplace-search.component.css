@@ -4,39 +4,32 @@
     text-align: center;
     color: white;
   }
+
   
-  /* Bottom left text */
-  .bottom-left {
+  /* Find Dream Gear */
+  .heading {
     position: absolute;
-    bottom: 8px;
-    left: 16px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    right: 40px;
+    top: 300px;
+    left: 60px;
+
   }
   
-  /* Top left text */
-  .top-left {
-    
-    top: 8px;
-    left: 16px;
-  }
-  
-  /* Top right text */
-  .top-right {
+  /* Join */
+  .top {
     position: absolute;
-    top: 8px;
-    right: 16px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 70%;
+    top: 250px;
+    left: 65px;
+  }
+
+  .search-bar{
+      position: absolute;
+      top: 400px;
+      left: 60px;
+      padding-right: 2px;
   }
   
-  /* Bottom right text */
-  .bottom-right {
-    position: absolute;
-    bottom: 8px;
-    right: 16px;
-  }
-  
-  /* Centered text */
-  .centered {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
+ 

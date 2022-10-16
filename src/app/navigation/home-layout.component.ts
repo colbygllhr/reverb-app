@@ -10,6 +10,7 @@ import { ProductItemModel } from "../cards/vertical-cards/product-item-model";
 export class HomeLayoutComponent{
     products: ProductItemModel [] = [];
 
+
     constructor(){
       //put some code to fetch data from backend using http
   

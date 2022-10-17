@@ -18,7 +18,7 @@
   
   /* Join */
   .top {
-    position: absolute;
+    position: fixed;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 70%;
     top: 250px;
@@ -26,7 +26,7 @@
   }
 
   .search-bar{
-      position: absolute;
+      position: fixed;
       top: 400px;
       left: 60px;
       padding-right: 2px;

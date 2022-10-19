@@ -1,12 +1,3 @@
-.button {
-    padding-left: (spacer * .5) !important;
+cart-link{
+    padding-left: 20px;
 }
-#search-addon{
-    border-bottom:black;
-}
-
-.nav{
-    
-    border: 3px solid black;
-}
-

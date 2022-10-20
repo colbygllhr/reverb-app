@@ -1,0 +1,23 @@
+a:hover{
+    color: orange
+}
+
+.feed-link{
+    margin:10px;  
+}
+
+.watched-items-link{
+    margin:10px;  
+}
+
+.cart-link{
+    margin:10px;  
+}
+
+.signup{
+    margin:10px;
+}
+
+.signin{
+    margin:10px;
+}

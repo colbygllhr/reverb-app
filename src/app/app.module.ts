@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { HttpClientModule } from '@angular/common/http';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -14,6 +15,10 @@ import { HomeLayoutComponent } from './navigation/home-layout.component';
 import { SignupLayoutComponent } from './navigation/signup-layout/signup-layout.component';
 import { LoginLayoutComponent } from './navigation/login-layout/login-layout.component';
 import { MyFeedLayoutComponent } from './navigation/my-feed-layout/my-feed-layout.component';
+import { ViewCategoriesLayoutComponent } from './navigation/view-categories-layout/view-categories-layout.component';
+import { UserInfoComponent } from './navigation/user-info/user-info.component';
+
+
 
 @NgModule({
   declarations: [
@@ -28,11 +33,14 @@ import { MyFeedLayoutComponent } from './navigation/my-feed-layout/my-feed-layou
     HomeLayoutComponent,
     SignupLayoutComponent,
     LoginLayoutComponent,
-    MyFeedLayoutComponent
+    MyFeedLayoutComponent,
+    ViewCategoriesLayoutComponent,
+    UserInfoComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

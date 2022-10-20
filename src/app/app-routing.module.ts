@@ -5,13 +5,15 @@ import { CartLayoutComponent } from './navigation/cart-layout.component';
 import { HomeLayoutComponent } from './navigation/home-layout.component';
 import { LoginLayoutComponent } from './navigation/login-layout/login-layout.component';
 import { SignupLayoutComponent } from './navigation/signup-layout/signup-layout.component';
+import { ViewCategoriesLayoutComponent } from './navigation/view-categories-layout/view-categories-layout.component';
 
 const routes: Routes = [
   {path: '', component: HomeLayoutComponent},
   {path: 'cart', component: CartLayoutComponent},
   {path: 'home', component: HomeLayoutComponent},
   {path: 'signup', component: SignupLayoutComponent},
-  {path: 'signin', component: LoginLayoutComponent}
+  {path: 'signin', component: LoginLayoutComponent},
+  {path: 'gear-categories', component: ViewCategoriesLayoutComponent }
 
 ];
 

@@ -24,7 +24,7 @@ export class UserInfoComponent implements OnInit {
   }
 
   getUserInfo() {
-    return this.http.get<UserInfo>('https://reverb-app-default-rtdb.firebaseio.com/my-info.json');
+    return this.http.get<UserInfo>("https://reverb-app-default-rtdb.firebaseio.com/my-info.json");
   }
 
   showUserInfo(){

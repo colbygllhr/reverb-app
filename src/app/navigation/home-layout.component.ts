@@ -1,8 +1,9 @@
-import { Component } from "@angular/core";
-import { mock_product_list } from "../cards/vertical-cards/mock-product-list";
-import { ProductItemModel } from "../cards/vertical-cards/product-item-model";
+import { Component, OnInit  } from "@angular/core";
+import { mock_product_list } from "./mock-product-list";
+import { ProductItemModel } from "./product-item-model";
 import { CategoryCardModel } from "../cards/horizontal-cards/category-card-model";
 import { mock_category_list } from "../cards/horizontal-cards/mock-category-list";
+import { ProductsService } from "./products.service";
 
 @Component({
     selector: 'home-layout',
@@ -14,7 +15,7 @@ export class HomeLayoutComponent{
     categories: CategoryCardModel [] = [];
 
 
-    constructor(){
+    constructor(private productsService:ProductsService) {
       //put some code to fetch data from backend using http
   
       for (var product of mock_product_list) {
@@ -29,4 +30,4 @@ export class HomeLayoutComponent{
       
       
     } 
-}
+

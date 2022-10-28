@@ -6,12 +6,14 @@ export const mock_product_list = [
         condition: "Brand New"
     },
 
+  
     {
         img: "/assets/fender-super-reverb.jpeg", 
         description: "1974 Vintage Fender Super Reverb",
         price: 1800, 
         condition: "Used - Very Good"
     },
+
 
     {
         img: "/assets/vintage-ludwig-drums.jpeg", 

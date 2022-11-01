@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
-import { mock_product_list } from './cards/vertical-cards/mock-product-list';
-import { ProductItemModel } from './cards/vertical-cards/product-item-model';
+import { mock_product_list } from './navigation/mock-product-list';
+import { ProductItemModel } from './navigation/product-item-model';
 
 @Component({
   selector: 'app-root',

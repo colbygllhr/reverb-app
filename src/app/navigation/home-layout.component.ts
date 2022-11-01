@@ -28,6 +28,3 @@ export class HomeLayoutComponent{
         this.categories.push(category);
       }
       
-      
-    } 
-

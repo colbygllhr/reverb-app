@@ -26,7 +26,7 @@ export const mock_product_list = [
    
     {
         img: "/assets/roland-juno.jpeg", 
-        description: "1969 Ludwig S-320 Standard Series Drum Set",
+        description: "1980 Roland Juno-106",
         price: 1194.26,
         condition: "Used - Excellent"  
     }

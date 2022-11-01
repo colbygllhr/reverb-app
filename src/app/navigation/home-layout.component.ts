@@ -1,4 +1,4 @@
-import { Component, OnInit  } from "@angular/core";
+import { Component  } from "@angular/core";
 import { mock_product_list } from "./mock-product-list";
 import { ProductItemModel } from "./product-item-model";
 import { CategoryCardModel } from "../cards/horizontal-cards/category-card-model";
@@ -27,4 +27,5 @@ export class HomeLayoutComponent{
         console.log(category);
         this.categories.push(category);
       }
-      
+    }
+  }

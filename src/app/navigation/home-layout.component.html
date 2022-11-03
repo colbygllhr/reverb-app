@@ -3,7 +3,7 @@
 <app-marketplace-search>Loading...</app-marketplace-search>
 </div>
 
-<div class="contiainer-fluid">
+<div class="contiainer-fluid d-flex">
     <div *ngFor="let category of categories">
         <app-horizontal-cards 
         img = {{category.img}}
@@ -20,8 +20,7 @@
 
 <h1>Recently Viewed</h1>
 
-<div class="contiainer-fluid">
-    <div class="row">
+<div class="contiainer-fluid d-flex">
     <div *ngFor="let product of products">
         <app-vertical-cards class="card mb-3" 
         img = {{product.img}}
@@ -32,8 +31,6 @@
     </app-vertical-cards>
     </div>
 </div>
-</div>
-
 
 
    

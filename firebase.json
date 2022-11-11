@@ -1,0 +1,10 @@
+{
+  "hosting": {
+    "public": "dist/reverb-app",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}

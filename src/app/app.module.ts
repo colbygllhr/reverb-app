@@ -17,6 +17,7 @@ import { LoginLayoutComponent } from './navigation/login-layout/login-layout.com
 import { MyFeedLayoutComponent } from './navigation/my-feed-layout/my-feed-layout.component';
 import { ViewCategoriesLayoutComponent } from './navigation/view-categories-layout/view-categories-layout.component';
 import { UserInfoComponent } from './navigation/user-info/user-info.component';
+import { CompComponent } from './comp/comp.component';
 
 
 
@@ -35,7 +36,8 @@ import { UserInfoComponent } from './navigation/user-info/user-info.component';
     LoginLayoutComponent,
     MyFeedLayoutComponent,
     ViewCategoriesLayoutComponent,
-    UserInfoComponent
+    UserInfoComponent,
+    CompComponent
   ],
   imports: [
     BrowserModule,

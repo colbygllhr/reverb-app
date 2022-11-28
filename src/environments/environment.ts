@@ -2,9 +2,6 @@
 // `ng build` replaces `environment.ts` with `environment.prod.ts`.
 // The list of file replacements can be found in `angular.json`.
 
-export const environment = {
-  production: false
-};
 
 /*
  * For easier debugging in development mode, you can import the following file
@@ -23,7 +20,7 @@ import { getAnalytics } from "firebase/analytics";
 
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
-const firebaseConfig = {
+export const environment = {
   apiKey: "AIzaSyDTB9NAxFwDp36gQSq0IoSQPJCMQJ0fw3w",
   authDomain: "reverb-app.firebaseapp.com",
   databaseURL: "https://reverb-app-default-rtdb.firebaseio.com",
@@ -35,5 +32,5 @@ const firebaseConfig = {
 };
 
 // Initialize Firebase
-const app = initializeApp(firebaseConfig);
+const app = initializeApp(environment);
 const analytics = getAnalytics(app);

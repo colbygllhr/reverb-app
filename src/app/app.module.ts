@@ -1,6 +1,8 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { HttpClientModule } from '@angular/common/http';
+import { AngularFirestoreModule } from '@angular/fire/compat/firestore';
+import {AngularFireModule } from '@angular/fire/compat';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -18,6 +20,7 @@ import { MyFeedLayoutComponent } from './navigation/my-feed-layout/my-feed-layou
 import { ViewCategoriesLayoutComponent } from './navigation/view-categories-layout/view-categories-layout.component';
 import { UserInfoComponent } from './navigation/user-info/user-info.component';
 import { CompComponent } from './comp/comp.component';
+import { environment } from 'src/environments/environment';
 
 
 
@@ -42,9 +45,16 @@ import { CompComponent } from './comp/comp.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
+    AngularFireModule.initializeApp(environment),
+    AngularFirestoreModule,
+
     HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
+function firebaseConfig(firebaseConfig: any): any[] | import("@angular/core").Type<any> | import("@angular/core").ModuleWithProviders<{}> {
+  throw new Error('Function not implemented.');
+}
+

@@ -1,8 +1,8 @@
-import { Component  } from "@angular/core";
-import { mock_product_list } from "./mock-product-list";
+import { Component, OnInit  } from "@angular/core";
+
 import { ProductItemModel } from "./product-item-model";
-import { CategoryCardModel } from "../cards/horizontal-cards/category-card-model";
-import { mock_category_list } from "../cards/horizontal-cards/mock-category-list";
+import { CategoryCardModel } from "./category-card-model";
+
 import { ProductsService } from "./products.service";
 
 @Component({
@@ -17,15 +17,28 @@ export class HomeLayoutComponent{
 
     constructor(private productsService:ProductsService) {
       //put some code to fetch data from backend using http
-  
-      for (var product of mock_product_list) {
-        console.log(product);
-        this.products.push(product);
-      }
+      
+    }
 
-      for (var category of mock_category_list) {
-        console.log(category);
-        this.categories.push(category);
+
+
+
+
+
+      ngOnInit(): void{
+        this.productsService.getProducts().subscribe((data: ProductItemModel []) => {
+          console.log("Fetching products...");
+          for (var product of data){
+            console.log(product);
+            this.products.push(product);
+
+          }
+
+        
+        });
+       
       }
     }
-  }
+
+
+  

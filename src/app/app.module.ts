@@ -19,9 +19,8 @@ import { LoginLayoutComponent } from './navigation/login-layout/login-layout.com
 import { MyFeedLayoutComponent } from './navigation/my-feed-layout/my-feed-layout.component';
 import { ViewCategoriesLayoutComponent } from './navigation/view-categories-layout/view-categories-layout.component';
 import { UserInfoComponent } from './navigation/user-info/user-info.component';
-import { CompComponent } from './comp/comp.component';
 import { environment } from 'src/environments/environment';
-import { AddProductComponent } from './cards/add-product/add-product.component';
+import { AddProductComponent } from './navigation/add-product/add-product.component';
 import { FormsModule } from '@angular/forms';
 
 
@@ -42,7 +41,6 @@ import { FormsModule } from '@angular/forms';
     MyFeedLayoutComponent,
     ViewCategoriesLayoutComponent,
     UserInfoComponent,
-    CompComponent,
     AddProductComponent
   ],
   imports: [

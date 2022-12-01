@@ -22,6 +22,7 @@ import { UserInfoComponent } from './navigation/user-info/user-info.component';
 import { CompComponent } from './comp/comp.component';
 import { environment } from 'src/environments/environment';
 import { AddProductComponent } from './cards/add-product/add-product.component';
+import { FormsModule } from '@angular/forms';
 
 
 
@@ -50,7 +51,9 @@ import { AddProductComponent } from './cards/add-product/add-product.component';
     AngularFireModule.initializeApp(environment.firebase),
     AngularFirestoreModule,
 
-    HttpClientModule
+
+    HttpClientModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

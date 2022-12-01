@@ -21,6 +21,7 @@ import { ViewCategoriesLayoutComponent } from './navigation/view-categories-layo
 import { UserInfoComponent } from './navigation/user-info/user-info.component';
 import { CompComponent } from './comp/comp.component';
 import { environment } from 'src/environments/environment';
+import { AddProductComponent } from './cards/add-product/add-product.component';
 
 
 
@@ -40,7 +41,8 @@ import { environment } from 'src/environments/environment';
     MyFeedLayoutComponent,
     ViewCategoriesLayoutComponent,
     UserInfoComponent,
-    CompComponent
+    CompComponent,
+    AddProductComponent
   ],
   imports: [
     BrowserModule,

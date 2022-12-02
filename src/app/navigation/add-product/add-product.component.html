@@ -23,7 +23,7 @@
                     <input type="text" class="form-control" ngModel name="condition">
                 </div>
 
-                <button class="btn-btn-dark" type="submit">Add Product</button>
+                <button class="btn-btn-dark" type="submit" [disabled]="!postform.valid">Add Product</button>
 
             </form>
         

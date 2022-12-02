@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { mock_product_list } from './navigation/mock-product-list';
+
 import { ProductItemModel } from './navigation/product-item-model';
 
 @Component({

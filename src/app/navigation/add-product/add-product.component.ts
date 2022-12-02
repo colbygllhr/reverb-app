@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { ProductItemModel } from '../product-item-model';
+
 
 @Component({
   selector: 'app-add-product',
@@ -10,6 +12,13 @@ export class AddProductComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+
   }
+
+  addProduct(product:ProductItemModel){
+    console.log("You clicked add product");
+    console.log(product);
+}
+
 
 }

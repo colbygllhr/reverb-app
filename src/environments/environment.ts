@@ -22,14 +22,14 @@ import { getAnalytics } from "firebase/analytics";
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 export const environment = {
  firebase:{
-  apiKey: 'AIzaSyDTB9NAxFwDp36gQSq0IoSQPJCMQJ0fw3w',
-  authDomain: 'reverb-app.firebaseapp.com',
-  databaseURL: 'https://reverb-app-default-rtdb.firebaseio.com',
-  projectId: 'reverb-app',
-  storageBucket: 'reverb-app.appspot.com',
-  messagingSenderId: '491374298674',
-  appId: '1:491374298674:web:8a014806bd9bb2be0ade2b',
-  measurementId: 'G-YS9ZSS4R5P',
+   apiKey: 'AIzaSyDTB9NAxFwDp36gQSq0IoSQPJCMQJ0fw3w',
+    authDomain: 'reverb-app.firebaseapp.com',
+    databaseURL: 'https://reverb-app-default-rtdb.firebaseio.com',
+    projectId: 'reverb-app',
+    storageBucket: 'reverb-app.appspot.com',
+    messagingSenderId: '491374298674',
+    appId: '1:491374298674:web:8a014806bd9bb2be0ade2b',
+    measurementId: 'G-YS9ZSS4R5P',
 },
 production: false
 };

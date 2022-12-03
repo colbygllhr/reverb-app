@@ -21,6 +21,7 @@ import { UserInfoComponent } from './navigation/user-info/user-info.component';
 import { environment } from 'src/environments/environment';
 import { AddProductComponent } from './navigation/add-product/add-product.component';
 import { FormsModule } from '@angular/forms';
+import { AuthComponent } from './auth/auth.component';
 
 
 
@@ -40,7 +41,8 @@ import { FormsModule } from '@angular/forms';
     MyFeedLayoutComponent,
     ViewCategoriesLayoutComponent,
     UserInfoComponent,
-    AddProductComponent
+    AddProductComponent,
+    AuthComponent
   ],
   imports: [
     BrowserModule,

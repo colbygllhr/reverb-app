@@ -1,4 +1,4 @@
-import { HttpClient } from "@angular/common/http";
+
 import { Injectable } from "@angular/core";
 import { ProductItemModel } from "./product-item-model";
 import { AngularFireDatabase } from '@angular/fire/compat/database'
@@ -24,7 +24,7 @@ export class ProductsService{
     //     return this.db.list<ProductItemModel>(this.baseUrl + 'products' + '/' + index + '.json');
     // }
 
-    addProduct(product:ProductItemModel){
+     addProduct(product:ProductItemModel){
         this.db.list<ProductItemModel>("products").push(product);
-    }
+     }
 }

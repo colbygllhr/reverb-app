@@ -1,6 +1,5 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { HttpClientModule } from '@angular/common/http';
 import { AngularFirestoreModule } from '@angular/fire/compat/firestore';
 import {AngularFireModule } from '@angular/fire/compat';
 
@@ -49,8 +48,6 @@ import { FormsModule } from '@angular/forms';
     AngularFireModule.initializeApp(environment.firebase),
     AngularFirestoreModule,
 
-
-    HttpClientModule,
     FormsModule
   ],
   providers: [],

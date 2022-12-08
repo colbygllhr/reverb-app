@@ -1,6 +1,7 @@
 import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { AuthComponent } from './auth/auth.component';
 import { AddProductComponent } from './navigation/add-product/add-product.component';
 import { CartLayoutComponent } from './navigation/cart-layout.component';
 import { HomeLayoutComponent } from './navigation/home-layout.component';
@@ -15,7 +16,8 @@ const routes: Routes = [
   {path: 'signup', component: SignupLayoutComponent},
   {path: 'signin', component: LoginLayoutComponent},
   {path: 'gear-categories', component: ViewCategoriesLayoutComponent },
-  {path: 'admin', component: AddProductComponent}
+  {path: 'admin', component: AddProductComponent},
+  {path: 'auth', component: AuthComponent}
 
 
 ];

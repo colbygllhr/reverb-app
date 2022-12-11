@@ -56,7 +56,5 @@ import { AuthComponent } from './auth/auth.component';
   bootstrap: [AppComponent]
 })
 export class AppModule { }
-function firebaseConfig(firebaseConfig: any): any[] | import("@angular/core").Type<any> | import("@angular/core").ModuleWithProviders<{}> {
-  throw new Error('Function not implemented.');
-}
+
 

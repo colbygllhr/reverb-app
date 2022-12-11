@@ -22,7 +22,7 @@ export class AuthComponent implements OnInit {
   }
 
   public onSubmit(data: NgForm){
-    console.log("Button clicked...")
+    console.log("Button clicked..." + this.buttonClicked)
     console.log(data.value);
 
     if(this.buttonClicked == 'SignUp'){

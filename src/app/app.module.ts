@@ -22,6 +22,7 @@ import { environment } from 'src/environments/environment';
 import { AddProductComponent } from './navigation/add-product/add-product.component';
 import { FormsModule } from '@angular/forms';
 import { AuthComponent } from './auth/auth.component';
+import { HttpClientModule } from '@angular/common/http';
 
 
 
@@ -47,6 +48,7 @@ import { AuthComponent } from './auth/auth.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
+    HttpClientModule,
     AngularFireModule.initializeApp(environment.firebase),
     AngularFirestoreModule,
 
